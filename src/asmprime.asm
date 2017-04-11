@@ -45,7 +45,7 @@ _start:
 	int 0x80
 
 .atoi:
-	lea esi,[input]i
+	lea esi,[input]
 
 	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	;CHANGE LENGTH OF INPUT HERE
